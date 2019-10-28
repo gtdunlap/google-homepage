@@ -1,0 +1,30 @@
+* {
+	box-sizing: border-box;
+}
+
+html,
+body {
+	height: 100%;
+	margin: 0;
+	font-size: small;
+}
+
+body {
+	background: #fff;
+	color: #222;
+	font-family: arial,sans-serif;
+}
+
+.logo-container {
+	display: flex;
+	height: 210px;
+	justify-content: center;
+  	align-items: center;
+  	margin-top: 100px;
+}
+
+.logo-container img {
+	height: 210px;
+	width: 320px;
+}
+
