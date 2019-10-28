@@ -20,11 +20,16 @@ body {
 	height: 210px;
 	justify-content: center;
   	align-items: center;
-  	margin-top: 100px;
+  	margin-top: 130px;
 }
 
 .logo-container img {
-	height: 210px;
-	width: 320px;
+	height: 100%;
+	width: 330px;
 }
 
+.search-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
