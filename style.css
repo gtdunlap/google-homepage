@@ -2,6 +2,10 @@
 	box-sizing: border-box;
 }
 
+a {
+	text-decoration: none;
+}
+
 html,
 body {
 	height: 100%;
@@ -15,6 +19,34 @@ body {
 	font-family: arial,sans-serif;
 }
 
+
+
+/*NAVIGATION*/
+header {
+	display: flex;
+	height: 60px;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.nav-box-left {
+	display: flex;
+	width: 10%;
+	justify-content: space-evenly;
+}
+
+.nav-box-right {
+	display: flex;
+	width: 17%;
+	padding-right: 10px;
+	justify-content: space-evenly;
+	
+}
+
+
+
+
+/*LOGO*/
 .logo-container {
 	display: flex;
 	height: 210px;
@@ -28,6 +60,9 @@ body {
 	width: 330px;
 }
 
+
+
+/*SEARCH*/
 .search-container {
 	background: #fff;
 	display: flex;
@@ -58,3 +93,5 @@ body {
 	padding-left: 15px;
 	flex-basis: 92%;
 }
+
+
