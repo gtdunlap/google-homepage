@@ -6,6 +6,11 @@ a {
 	text-decoration: none;
 }
 
+a:hover, 
+a:active {
+    text-decoration: underline;
+}
+
 html,
 body {
 	height: 100%;
@@ -111,9 +116,18 @@ header {
 	color: #5F6368;
 	font-family: arial,sans-serif;
 	font-size: 14px;
-	margin: 0 7px;
+	margin: 0 5px;
 	padding: 0 16px;
 	line-height: 27px;
 	height: 36px;
 	min-width: 54px;
+}
+
+
+
+/*NEWS*/
+.news-container {
+	display: flex;
+	justify-content: center;
+	margin-top: 23px;
 }
